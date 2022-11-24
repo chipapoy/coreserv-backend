@@ -15,11 +15,13 @@ return [
     |
     */
 
-    'paths' => ['*'],
+    'paths' => ['login','data/*'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3000')],
+    // 'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3000')],
+
+    'allowed_origins' => [ 'https://coreserv-mdu.vercel.app' ],
 
     'allowed_origins_patterns' => [],
 
