@@ -32,7 +32,6 @@
         "DB_USERNAME":"u279822773_coreserv",
         "DB_PASSWORD":"Coreserv_001",
 
-        "SANCTUM_STATEFUL_DOMAINS": "coreserv-mdu.vercel.app",
-        "SESSION_DOMAIN": "coreserv-mdu.vercel.app"
+        "SANCTUM_STATEFUL_DOMAINS": "coreserv-mdu.vercel.app"
     }
 }
