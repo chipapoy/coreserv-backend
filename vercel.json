@@ -30,8 +30,6 @@
         "DB_PORT":"3306",
         "DB_DATABASE":"u279822773_coreserv_db",
         "DB_USERNAME":"u279822773_coreserv",
-        "DB_PASSWORD":"Coreserv_001",
-
-        "SANCTUM_STATEFUL_DOMAINS": "coreserv-mdu.vercel.app"
+        "DB_PASSWORD":"Coreserv_001"
     }
 }
