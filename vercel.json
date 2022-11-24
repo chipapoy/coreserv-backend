@@ -10,7 +10,7 @@
     "env": {
         "APP_ENV": "local",
         "APP_DEBUG": "true",
-        "APP_URL": "https://coreserv-backend.vercel.app/",
+        "APP_URL": "https://coreserv-backend.vercel.app",
         "APP_KEY": "base64:ZnPpbDyHhWHC7vsta9ET7K+Ruq5wyeR9JG+NAAXP/kM=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -19,7 +19,7 @@
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
 
-        "FRONTEND_URL": "https://coreserv-mdu.vercel.app/",
+        "FRONTEND_URL": "https://coreserv-mdu.vercel.app",
 
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
@@ -33,6 +33,6 @@
         "DB_PASSWORD":"Coreserv_001",
 
         "SANCTUM_STATEFUL_DOMAINS": "coreserv-mdu.vercel.app",
-        "SESSION_DOMAIN": "coreserv-mdu.vercel.app"
+        "SESSION_DOMAIN": ".vercel.app"
     }
 }
