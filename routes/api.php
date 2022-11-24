@@ -33,7 +33,7 @@ Route::get('/users/{id}', function ($id) {
 // Vendor
 Route::get('/vendorList',[Vendor::class, 'List']);
 Route::post('/insertData',[Vendor::class, 'store']);
-Route::post('/test',[Vendor::class, 'test']);
+Route::get('/test',[Vendor::class, 'test']);
 Route::get('/vendorNameList',[Vendor::class, 'vendorNameList']);
 
 // RFP
