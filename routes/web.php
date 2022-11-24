@@ -1,5 +1,11 @@
 <?php
 
+use App\Http\Controllers\Vendor;
+use App\Http\Controllers\Rfp;
+use App\Http\Controllers\Dashboard;
+use App\Http\Controllers\City;
+use App\Http\Controllers\SkyDetails;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,5 +30,7 @@ Route::get('/test', function () {
 Route::get('/users', function () {
     return response("test");
 });
+
+Route::get('/vendorList',[Vendor::class, 'List']);
 
 require __DIR__.'/auth.php';
